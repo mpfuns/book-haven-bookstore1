@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Our Shelf</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script defer  src="script.js"></script>
+    <script  src="https://kit.fontawesome.com/db9d36cd20.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <header>
+    <nav>
+      <div class="nav_container">
+        <div class="col-md-4">
+           <figure class="logo__container"><img src='/asset/Client3_LogoPalette2_3F5461.png' alt="Book Haven Bookstore logo"/></figure>
+          <h1 id="storetitle">Book Haven Bookstore</h1>
+        </div>
+        <ul class="nav__list">
+  
+          
+          <li><a href="index.html" class="nav_link">Home</a></li>
+          
+          <li>
+          <div class="marker">You are currently on </div>
+            <a href="#" class="nav_link">Our Shelf</a></li>
+            <li><a href="About.html" class="nav_link ">About Us</a></li>
+          <li><a href="custompage.html" class="nav_link">Community</a></li>
+          
+        </ul> 
+        <div class="nav__mobile">
+          <li id="menu-open" ><i class="fas fa-bars "></i></li>
+        </div>
+        <div class="menu" id="menu">
+        <ul class="nav__mobile-menu" >
+          <li id="menu-close"><i class="fa-solid fa-x nav__mobile"></i></li>
+          <li><a href="index.html" class="nav_link">Home</a></li>
+          <li><a href="#" class="nav_link">Our Shelf</a></li>
+          <li><a href="About.html" class="nav_link ">About Us</a></li>
+          <li><a href="custompage.html" class="nav_link">Community</a></li>
+        </ul>
+      </div>
+    </div>
+      </nav>
+    </header>
+    <main>
+    <div class="container">
+      <div>
+        <button type="button" onclick='viewCart()'><i class="fas fa-shopping-cart"></i></button>  
+      </div>
+      
+    <div class="ourshelf-title">
+      <h2>Our Shelf</h2>
+    </div>
+    
+    <div class="product-group">
+      <div class="product">
+        <img src="asset/Client3_Book1.png" alt="Brie Mine 4Ever book">
+        <h3>Brie Mine 4Ever</h3>
+        <p>book for cheese lovers</p>
+        <button class="cart-button" value="Brie Mine 4Ever">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="/asset/Client3_Book2.png" alt="Glory Riders book">
+        <h3>Glory Riders</h3>
+        <p>book about bikers</p>
+        <button class="cart-button" value="Glory Riders">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_Book3.png" alt="Sorcerer’s Shadowed Chronicles book">
+        <h3>Sorcerer’s Shadowed Chronicles</h3>
+        <p>fantasy book</p>
+        <button class="cart-button" value="Sorcerer’s Shadowed Chronicles">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_Magazine1.png" alt="Ball book">
+        <h3>Ball</h3>
+        <p>magazine about pickleball</p>
+        <button class="cart-button" value="Ball">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_Magazine2.png" alt="Travel book">
+        <h3>Travel</h3>
+        <p>magazine for travelers</p>
+        <button class="cart-button" value="Travel">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_Magazine3.png" alt="Eat. book">
+        <h3>Eat.</h3>
+        <p>magazine for foodies</p>
+        <button class="cart-button" value="Eat.">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_ToteBag.png" alt=" Totebag image">
+        <h3>tote bag</h3>
+        <p>says "ALL I DO IS READ READ READ"</p>
+        <button class="cart-button" value="tote bag">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_Notebook.png" alt="Notebook image">
+        <h3>notebook</h3>
+        <p>says Book Haven Bookstore</p>
+        <button class="cart-button" value="notebook">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="asset/Client3_Stickers.png" alt="Stickers image">
+        <h3>Stickers</h3>
+        <p>promoting reading</p>
+        <button class="cart-button" value="Stickers">Add to Cart</button>
+      </div>
+      
+    </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-layout">
+          <div >
+            <section class= "newsletter-center">
+              <div class="newsletter">
+                  <div class="newsletter-content">
+                      <h3 id="newsletter-title">Join Our Newsletter</h3>
+                      <form id="newsletter-form" class="email-section" action="/"  method="get" >
+                        <input type="email" placeholder="Your email" id="newsletter-email" required>
+                        <button type="submit">Sign up</button>
+                      </form>
+                      
+                  </div>
+              </div>
+          </section>
+          </div>
+          <div>
+            <div class="col-md-4">
+            <figure class="logo__container">
+              <img src="/asset/Client3_LogoPalette2_3F5461.png" alt="Logo">
+            </figure>
+            <p>Book Haven Bookstore</p>
+            </div>
+            <div class="col-md-4">
+            <ul class="social-links">
+              <li><a href="#" class="no-cursor"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" class="no-cursor"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#" class="no-cursor"><i class="fab fa-x-twitter"></i></a></li>
+              <li><a href="#" class="no-cursor"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <ul class="footer__list">
+            <li><a href="index.html" class="footer_link">Home</a></li> 
+            <li><a href="#" class="footer_link">Our Shelf</a></li>
+            <li><a href="About.html" class="footer_link">About Us</a></li>
+            <li><a href="custompage.html" class="footer_link">Community</a></li>
+          </ul>
+           </div>
+            
+        </div>
+        </div>
+        <div class="col-md-4">
+          <p id="footer-text">&copy; 2025 Book Haven Bookstore. All rights reserved.</p>
+          </div>
+      </div>
+    </footer>
+    <div class="cart-view" id="cart-display" >
+      <div class="cart-content">
+        <div class="cart-close_button"><button onclick="closeCart()"><i class="fa-solid fa-x"></i></button></div>
+        <div class="cart-info">
+          <h3>Cart</h3>
+          <div class="cart-items" id="cart-items-group">
+                 
+          </div>
+          <div class="cart-buttons">
+            <button id="clear-all_button">Clear All</button>
+           <button id="checkout_button">Checkout</button>
+          </div>
+        </div>
+       
+        
+    </div>
+
+  </body>
+</html>

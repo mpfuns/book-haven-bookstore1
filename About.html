@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Us</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <script   src="https://kit.fontawesome.com/db9d36cd20.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+    <nav>
+      <div class="nav_container">
+        <div class="col-md-4">
+           <figure class="logo__container"><img src='/asset/Client3_LogoPalette2_3F5461.png' alt="Book Haven Bookstore logo"/></figure>
+          <h1 id="storetitle">Book Haven Bookstore</h1>
+        </div>
+        <ul class="nav__list">
+  
+          
+          <li><a href="index.html" class="nav_link">Home</a></li>
+         
+          <li><a href="shelf.html" class="nav_link">Our Shelf</a></li>
+          <li>
+            <div class="marker">You are currently on </div>
+              <a href="#" class="nav_link ">About Us</a></li>
+          <li><a href="custompage.html" class="nav_link">Community</a></li>
+          
+        </ul> 
+        <div class="nav__mobile">
+          <li id="menu-open" ><i class="fas fa-bars "></i></li>
+        </div>
+        <div class="menu" id="menu">
+        <ul class="nav__mobile-menu" >
+          <li id="menu-close"><i class="fa-solid fa-x nav__mobile"></i></li>
+          <li><a href="index.html" class="nav_link">Home</a></li>
+          <li><a href="shelf.html" class="nav_link">Our Shelf</a></li>
+          <li><a href="#" class="nav_link ">About Us</a></li>
+          <li><a href="custompage.html" class="nav_link">Community</a></li>
+        </ul>
+      </div>
+    </div>
+      </nav>
+    </header>
+    <main>
+          
+            <section  class="information-group">
+              <section class="about">
+                <div class="about-content">
+                  <h2>About Us</h2>
+                  <p>A beloved local treasure for book enthusiasts, we offer a wide selection of books, magazines, journals, and office supplies, all thoughtfully chosen to meet your needs. With a passion for promoting literary exploration and a love for reading, we're excited to bring our offerings online. Our mission is to enhance your experience, build a vibrant literary community, and make it easier for you to find and purchase the books and supplies you need. Whether you're looking for high-quality reading materials or essential office supplies, we're here for you.</p>
+                 </div>
+                 <div class="operation">
+                  <h3>Hours of Operation</h3>
+                  <p>Monday–Friday: 9 a.m. to 8 p.m.</p>
+                  <p>Saturday: 10 a.m. to 6 p.m.</p>
+                  <p>Sunday: 11 a.m. to 5 p.m.</p>
+                </div>
+              </section>
+               <div class="about-image__container">
+                <img src="asset/undraw_bookshelves_vhu6 .svg" alt="book shelf with team memeber illustration">
+               </div>
+              
+            </section>
+            
+        <section class="form">
+          <form class="contact" id="contact-form">
+            <div id="contact-title">
+              <div>
+                <h3>Contact Us</h3>
+                <p><span class="required">*</span>  means required</p>
+              </div>
+            </div>
+            <div class="contact-content">
+              <div class="contact-input" id="name" >
+                <label for="name" >Name*:</label>
+                <input name="name" id="name-input" required type="text" placeholder="Your name">
+              </div>
+              <div class="contact-input" id="email">
+                <label for="email" ><i class="fa-regular fa-envelope"></i>*:</label>
+                <input name="email" id="email-input" required type="email" placeholder="Your email address">
+              </div>
+              <div class="contact-input" id="phone">
+                <label for="phone"><i class="fa-solid fa-phone"></i>:</label>
+                <input name="phone" id="phone-input" type="tel" placeholder="Your phone number">
+              </div>
+              <div class="contact-input" id="order">
+                <label for="order" >Order Number:</label>
+                <input name="order" id="order-input" type="text" placeholder="####">
+              </div>
+              <div class="contact-input contact-area" id="message">
+              <label for="message" >Message*:</label>
+                <textarea required name="message" id="message-input" cols="30" rows="10" placeholder="Meassage here"></textarea>
+              </div>
+            </div>
+            <div class="submit-button">
+              <button type="submit" value="Submit">Submit</button>
+            </div>
+            
+          </form>
+        </section>
+
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-layout">
+          <div >
+            <section class= "newsletter-center">
+              <div class="newsletter">
+                  <div class="newsletter-content">
+                      <h3 id="newsletter-title">Join Our Newsletter</h3>
+                      <form id="newsletter-form" class="email-section" action="/"  method="get" >
+                        <input type="email" placeholder="Your email" id="newsletter-email" required>
+                        <button type="submit">Sign up</button>
+                      </form>
+                      
+                  </div>
+              </div>
+          </section>
+          </div>
+          <div>
+            <div class="col-md-4">
+            <figure class="logo__container">
+              <img src="/asset/Client3_LogoPalette2_3F5461.png" alt="Logo">
+            </figure>
+            <p>Book Haven Bookstore</p>
+            </div>
+            <div class="col-md-4">
+            <ul class="social-links">
+              <li><a href="#" class="no-cursor"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" class="no-cursor"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#" class="no-cursor"><i class="fab fa-x-twitter"></i></a></li>
+              <li><a href="#" class="no-cursor"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <ul class="footer__list">
+            <li><a href="index.html" class="footer_link">Home</a></li> 
+            <li><a href="shelf.html" class="footer_link">Our Shelf</a></li>
+            <li><a href="#" class="footer_link">About Us</a></li>
+            <li><a href="custompage.html" class="footer_link">Community</a></li>
+          </ul>
+           </div>
+            
+        </div>
+        </div>
+        <div class="col-md-4">
+          <p id="footer-text">&copy; 2025 Book Haven Bookstore. All rights reserved.</p>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
